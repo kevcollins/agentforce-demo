@@ -1,0 +1,125 @@
+<template>
+  <!-- Error state -->
+  <template if:true={error}>
+    <div class="slds-notify slds-notify_alert slds-theme_error" role="alert">
+      <span class="slds-assistive-text">Error</span>
+      <lightning-icon
+        icon-name="utility:error"
+        alternative-text="Error"
+        size="small"
+        class="slds-m-right_x-small"
+      ></lightning-icon>
+      <h2
+        class="slds-text-heading_small slds-truncate"
+        title="An error occurred"
+      >
+        An error occurred loading FAQs.
+      </h2>
+    </div>
+  </template>
+
+  <!-- Loading state -->
+  <template if:true={isLoading}>
+    <div class="slds-p-vertical_small slds-align_absolute-center">
+      <lightning-spinner
+        size="small"
+        alternative-text="Loading FAQs"
+      ></lightning-spinner>
+    </div>
+  </template>
+
+  <!-- Main content -->
+  <template if:false={isLoading}>
+    <!-- Optional header slot -->
+    <header class="slds-p-vertical_small">
+      <slot name="header">
+        <h2 class="slds-text-heading_medium">Frequently Asked Questions</h2>
+      </slot>
+    </header>
+
+    <!-- Optional search/filter -->
+    <div class="slds-grid slds-wrap slds-m-bottom_small">
+      <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+        <lightning-input
+          type="search"
+          value={searchTerm}
+          label="Search FAQs"
+          placeholder="Search by keyword"
+          message-when-bad-input="Enter a valid search term"
+          onchange={handleSearchChange}
+        >
+        </lightning-input>
+      </div>
+    </div>
+
+    <!-- FAQs list -->
+    <template if:true={faqs}>
+      <template if:true={faqs.length}>
+        <lightning-accordion
+          active-section-name={activeSection}
+          allow-multiple-sections-open
+          onsectiontoggle={handleToggle}
+        >
+          <template for:each={faqs} for:item="faq">
+            <lightning-accordion-section
+              key={faq.id}
+              name={faq.id}
+              label={faq.question}
+              data-id={faq.id}
+            >
+              <!-- If answers contain trusted HTML from Knowledge, insert via JS into this container -->
+              <div
+                class="faq-answer slds-p-around_small"
+                lwc:dom="manual"
+                data-content={faq.id}
+              ></div>
+
+              <!-- Optional per-item actions -->
+              <div class="slds-grid slds-wrap slds-m-top_small">
+                <div class="slds-col slds-grow-none">
+                  <lightning-button
+                    variant="neutral"
+                    icon-name="utility:copy_to_clipboard"
+                    label="Copy Answer"
+                    title="Copy this answer"
+                    data-id={faq.id}
+                    onclick={handleCopy}
+                  ></lightning-button>
+                </div>
+              </div>
+            </lightning-accordion-section>
+          </template>
+        </lightning-accordion>
+      </template>
+      <template if:false={faqs.length}>
+        <div
+          class="slds-illustration slds-illustration_small slds-p-vertical_large"
+        >
+          <svg
+            class="slds-illustration__svg"
+            viewBox="0 0 454 340"
+            aria-hidden="true"
+          >
+            <use
+              xlink:href="/assets/icons/illustrations/slds-illustrations.svg#no_content"
+            ></use>
+          </svg>
+          <div class="slds-text-longform">
+            <h3 class="slds-text-heading_small">No FAQs found</h3>
+            <p>Try adjusting your search or check back later.</p>
+          </div>
+        </div>
+      </template>
+    </template>
+
+    <!-- Fallback if faqs is null/undefined -->
+    <template if:false={faqs}>
+      <div class="slds-text-color_weak">FAQs are not available.</div>
+    </template>
+
+    <!-- Optional footer slot -->
+    <footer class="slds-p-top_small">
+      <slot name="footer"></slot>
+    </footer>
+  </template>
+</template>

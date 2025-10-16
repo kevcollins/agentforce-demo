@@ -1,0 +1,16 @@
+.faq-card {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.faq-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+.faq-body {
+  margin-top: 0.5rem;
+}
+.error {
+  color: #c00;
+}
