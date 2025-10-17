@@ -1,55 +1,57 @@
-const { defineConfig } = require('eslint/config');
-const eslintJs = require('@eslint/js');
-const jestPlugin = require('eslint-plugin-jest');
-const auraConfig = require('@salesforce/eslint-plugin-aura');
-const lwcConfig = require('@salesforce/eslint-config-lwc/recommended');
-const globals = require('globals');
+// eslint.config.js — ESLint v9 flat config
+const globals = require("globals");
 
-module.exports = defineConfig([
-    // Aura configuration
-    {
-        files: ['**/aura/**/*.js'],
-        extends: [
-            ...auraConfig.configs.recommended,
-            ...auraConfig.configs.locker
-        ]
-    },
-
-    // LWC configuration
-    {
-        files: ['**/lwc/**/*.js'],
-        extends: [lwcConfig]
-    },
-
-    // LWC configuration with override for LWC test files
-    {
-        files: ['**/lwc/**/*.test.js'],
-        extends: [lwcConfig],
-        rules: {
-            '@lwc/lwc/no-unexpected-wire-adapter-usages': 'off'
-        },
-        languageOptions: {
-            globals: {
-                ...globals.node
-            }
-        }
-    },
-
-    // Jest mocks configuration
-    {
-        files: ['**/jest-mocks/**/*.js'],
-        languageOptions: {
-            sourceType: 'module',
-            ecmaVersion: 'latest',
-            globals: {
-                ...globals.node,
-                ...globals.es2021,
-                ...jestPlugin.environments.globals.globals
-            }
-        },
-        plugins: {
-            eslintJs
-        },
-        extends: ['eslintJs/recommended']
+module.exports = [
+  // Base JS everywhere
+  {
+    files: ["**/*.js"],
+    languageOptions: {
+      ecmaVersion: "latest",
+      sourceType: "module",
+      globals: { ...globals.browser, ...globals.node }
     }
-]);
+  },
+
+  // LWC: allow decorators (@api, @wire, @track)
+  {
+    files: ["**/lwc/**/*.js"],
+    languageOptions: {
+      parser: require("@babel/eslint-parser"),
+      parserOptions: {
+        requireConfigFile: false,
+        babelOptions: {
+          // Enable legacy decorators + class fields for LWC syntax
+          plugins: [
+            ["@babel/plugin-proposal-decorators", { legacy: true }],
+            ["@babel/plugin-proposal-class-properties", { loose: true }]
+          ]
+        }
+      }
+    }
+  },
+
+  // Aura controllers/helpers/renderers: relax noisy rules
+  {
+    files: ["**/aura/**/{*Controller.js,*Helper.js,*Renderer.js}"],
+    rules: {
+      "no-unused-expressions": "off",
+      "no-unused-vars": "off",
+      "vars-on-top": "off"
+    }
+  },
+
+  // Jest globals for LWC tests (if present)
+  {
+    files: ["**/lwc/**/*.test.js"],
+    languageOptions: {
+      globals: {
+        jest: true,
+        expect: true,
+        describe: true,
+        it: true,
+        beforeEach: true,
+        afterEach: true
+      }
+    }
+  }
+];

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description
+  >Calculates the average Interest_Rate__c in the Financial_Rate_Quote__dlm DMO for a given branch city.</description>
+    <developerName>Analyze_Rate_Trends_by_City</developerName>
+    <invocationTarget>RateAnalyticsInvocable</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <localDeveloperName>Analyze_Rate_Trends_by_City</localDeveloperName>
+    <masterLabel>Analyze Rate Trends by City</masterLabel>
+    <progressIndicatorMessage>Calculating ...</progressIndicatorMessage>
+</GenAiFunction>

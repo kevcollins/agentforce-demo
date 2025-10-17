@@ -1,0 +1,101 @@
+Quote_Reference__c,Product_Type__c,Term__c,Interest_Rate_(%)__c,Currency__c,Minimum_Deposit__c,Branch_City__c,Valid_Until__c,Promotional_Description__c,Contact_Email__c
+QTEIVR53,Fixed Income Bond Fund,24 Months,3.32,CAD,14931.53,Boston,2025-12-06,"Rate guaranteed for deposits above $10,000.",info@kevcapital.example
+QTMB7QIE,Business Line of Credit,3 Months,2.76,CAD,2634.58,Boston,2025-11-22,"Rate guaranteed for deposits above $10,000.",advisor@finassist.example
+QTJ087J9,Auto Loan Quote,48 Months,6.03,CAD,14918.25,New York,2025-12-14,Special promotional rate for new customers only.,rates@northbayfunds.example
+QT7CA06I,Student Loan Refinance,3 Months,2.06,USD,17651.83,Denver,2025-12-09,"Rate guaranteed for deposits above $10,000.",support@finedge.example
+QTS577B1,Business Line of Credit,24 Months,3.66,USD,1557.99,Seattle,2025-12-02,Eligible for loyalty bonus after 12 months.,info@kevcapital.example
+QTP3A7QX,Mortgage Rate Offer,24 Months,2.64,USD,30160.9,Seattle,2026-01-07,Flexible payment schedule with early withdrawal penalty.,rates@northbayfunds.example
+QT0NI38A,Mortgage Rate Offer,48 Months,6.02,EUR,29666.04,Austin,2025-12-25,Flexible payment schedule with early withdrawal penalty.,info@kevcapital.example
+QTMBY4S2,High-Yield Savings,60 Months,5.65,CAD,43636.79,Atlanta,2025-11-05,Eligible for loyalty bonus after 12 months.,support@finedge.example
+QTOPAX2J,Business Line of Credit,24 Months,9.08,USD,15627.81,Boston,2025-12-04,Eligible for loyalty bonus after 12 months.,info@kevcapital.example
+QTXNYEYF,Mortgage Rate Offer,3 Months,2.11,USD,9901.89,San Francisco,2025-12-02,Includes automatic renewal option upon maturity.,rates@northbayfunds.example
+QTPMR9BG,Certificate of Deposit,12 Months,3.95,GBP,1601.65,New York,2025-11-10,"Rate guaranteed for deposits above $10,000.",info@kevcapital.example
+QTT43DLO,High-Yield Savings,24 Months,7.59,GBP,4571.8,Dallas,2025-11-20,Eligible for loyalty bonus after 12 months.,advisor@finassist.example
+QT0EXCEQ,Mortgage Rate Offer,48 Months,9.13,USD,11397.3,Austin,2026-01-14,Special promotional rate for new customers only.,support@finedge.example
+QTSYI8PK,Auto Loan Quote,60 Months,7.36,EUR,44841.8,New York,2025-12-07,Special promotional rate for new customers only.,support@finedge.example
+QT7PZKIZ,Certificate of Deposit,60 Months,2.38,USD,37569.99,Atlanta,2025-11-14,Flexible payment schedule with early withdrawal penalty.,info@kevcapital.example
+QTYV2HN8,Money Market Account,12 Months,8.57,GBP,34883.49,Austin,2025-11-29,Includes automatic renewal option upon maturity.,rates@northbayfunds.example
+QT683W6K,Mortgage Rate Offer,12 Months,4.51,CAD,33734.01,Chicago,2025-11-04,Eligible for loyalty bonus after 12 months.,support@finedge.example
+QTM1CNY8,High-Yield Savings,48 Months,7.46,USD,28492.48,Atlanta,2025-11-21,Rates may vary based on credit profile and location.,advisor@finassist.example
+QTGZCC3T,Certificate of Deposit,36 Months,5.19,CAD,21967.63,Atlanta,2025-11-30,Eligible for loyalty bonus after 12 months.,advisor@finassist.example
+QT72RP9J,Student Loan Refinance,12 Months,5.48,USD,49208.29,Atlanta,2025-11-06,Rates may vary based on credit profile and location.,info@kevcapital.example
+QTUVI4CB,Business Line of Credit,3 Months,8.93,EUR,25611.47,Miami,2025-11-25,Eligible for loyalty bonus after 12 months.,rates@northbayfunds.example
+QTP703B6,Commercial Equipment Loan,60 Months,5.44,CAD,33636.6,Atlanta,2025-11-29,Eligible for loyalty bonus after 12 months.,support@finedge.example
+QT2QTZY6,Mortgage Rate Offer,12 Months,8.54,EUR,1467.67,New York,2026-01-04,Rates may vary based on credit profile and location.,info@kevcapital.example
+QTL2NVNX,Mortgage Rate Offer,36 Months,1.55,USD,14400.43,Chicago,2025-12-13,Rates may vary based on credit profile and location.,info@kevcapital.example
+QTC9SFKP,Mortgage Rate Offer,24 Months,5.56,EUR,4798.5,Dallas,2025-11-05,Special promotional rate for new customers only.,rates@northbayfunds.example
+QT0AMTKZ,Mortgage Rate Offer,36 Months,4.12,USD,34610.71,New York,2025-12-29,Includes automatic renewal option upon maturity.,info@kevcapital.example
+QTE2UF94,Certificate of Deposit,3 Months,6.01,USD,48061.65,Boston,2025-12-05,"Rate guaranteed for deposits above $10,000.",advisor@finassist.example
+QT2K6WO1,Student Loan Refinance,48 Months,5.39,USD,8843.11,Dallas,2025-12-17,Special promotional rate for new customers only.,rates@northbayfunds.example
+QTHPM9SN,Auto Loan Quote,36 Months,2.91,USD,25401.13,Boston,2025-12-19,"Rate guaranteed for deposits above $10,000.",info@kevcapital.example
+QTQWWJKU,Student Loan Refinance,3 Months,5.37,CAD,35381.47,Boston,2026-01-12,Special promotional rate for new customers only.,support@finedge.example
+QTO7UVQI,Personal Loan Quote,12 Months,4.74,USD,49291.69,Dallas,2025-12-13,Special promotional rate for new customers only.,support@finedge.example
+QT39365Q,High-Yield Savings,12 Months,9,CAD,42040.32,Denver,2026-01-03,Includes automatic renewal option upon maturity.,support@finedge.example
+QT14TALX,Money Market Account,12 Months,8.82,EUR,22117.76,Chicago,2025-11-24,"Rate guaranteed for deposits above $10,000.",support@finedge.example
+QTG8E0YT,Auto Loan Quote,3 Months,7.74,CAD,29669.15,San Francisco,2025-12-14,Special promotional rate for new customers only.,info@kevcapital.example
+QTEXTAXS,Certificate of Deposit,3 Months,3.08,CAD,30325.84,Atlanta,2025-12-27,"Rate guaranteed for deposits above $10,000.",rates@northbayfunds.example
+QTPENWQT,Business Line of Credit,12 Months,7.33,USD,5795.63,Chicago,2025-12-19,Flexible payment schedule with early withdrawal penalty.,info@kevcapital.example
+QT390P7P,Fixed Income Bond Fund,24 Months,4.37,GBP,20244.4,Atlanta,2025-12-25,Includes automatic renewal option upon maturity.,info@kevcapital.example
+QTDPBV54,Mortgage Rate Offer,6 Months,4.12,USD,49126.58,New York,2025-11-18,Rates may vary based on credit profile and location.,rates@northbayfunds.example
+QTZXYRXD,Business Line of Credit,6 Months,9.13,CAD,45070.82,Seattle,2025-12-12,Flexible payment schedule with early withdrawal penalty.,advisor@finassist.example
+QT5W595M,Business Line of Credit,12 Months,3.7,CAD,20477,New York,2025-12-07,"Rate guaranteed for deposits above $10,000.",advisor@finassist.example
+QTHA9XIQ,Commercial Equipment Loan,24 Months,6.86,GBP,40355.42,Miami,2026-01-06,Special promotional rate for new customers only.,rates@northbayfunds.example
+QTSYBTW3,Business Line of Credit,48 Months,1.54,USD,20920.07,Austin,2025-12-03,Flexible payment schedule with early withdrawal penalty.,support@finedge.example
+QTKUFFB3,Business Line of Credit,24 Months,7.1,USD,3635.89,Atlanta,2026-01-10,"Rate guaranteed for deposits above $10,000.",support@finedge.example
+QT4MEXRP,Certificate of Deposit,3 Months,5.57,USD,47207.77,Austin,2025-12-09,"Rate guaranteed for deposits above $10,000.",support@finedge.example
+QTO6WURC,Student Loan Refinance,3 Months,5.16,USD,9725.78,Seattle,2025-12-15,Includes automatic renewal option upon maturity.,info@kevcapital.example
+QTYFGTGV,High-Yield Savings,12 Months,5.55,CAD,753.45,Seattle,2025-11-21,Flexible payment schedule with early withdrawal penalty.,info@kevcapital.example
+QTJQNO4E,Mortgage Rate Offer,48 Months,6.16,GBP,29401.06,New York,2025-12-15,Special promotional rate for new customers only.,rates@northbayfunds.example
+QT2G8IKC,Commercial Equipment Loan,6 Months,3.39,USD,44734.42,Denver,2025-11-01,Eligible for loyalty bonus after 12 months.,advisor@finassist.example
+QT7VFS83,Fixed Income Bond Fund,12 Months,5.01,EUR,40377.74,San Francisco,2026-01-02,Eligible for loyalty bonus after 12 months.,support@finedge.example
+QTH7VWLE,Business Line of Credit,60 Months,9.25,USD,32042.17,Boston,2025-12-16,Flexible payment schedule with early withdrawal penalty.,info@kevcapital.example
+QTOBB63Q,Commercial Equipment Loan,48 Months,5.48,CAD,28240.02,Boston,2025-11-04,Eligible for loyalty bonus after 12 months.,rates@northbayfunds.example
+QT2D6YSE,Certificate of Deposit,6 Months,5.07,USD,47832.33,Atlanta,2025-12-14,Eligible for loyalty bonus after 12 months.,support@finedge.example
+QT77IFB8,Personal Loan Quote,48 Months,6.93,USD,40604.66,Seattle,2025-11-29,Includes automatic renewal option upon maturity.,support@finedge.example
+QTC1X32C,Mortgage Rate Offer,24 Months,5.71,CAD,30649.89,New York,2026-01-07,Rates may vary based on credit profile and location.,advisor@finassist.example
+QTMXLYRF,Business Line of Credit,36 Months,4.67,GBP,2978.8,New York,2025-12-30,"Rate guaranteed for deposits above $10,000.",rates@northbayfunds.example
+QTKOM7SI,Student Loan Refinance,60 Months,3.01,USD,21714.74,Chicago,2025-11-23,Eligible for loyalty bonus after 12 months.,info@kevcapital.example
+QT5YMETG,Mortgage Rate Offer,3 Months,3.72,CAD,25272.99,Denver,2026-01-03,Includes automatic renewal option upon maturity.,rates@northbayfunds.example
+QTH35981,Commercial Equipment Loan,36 Months,2.57,USD,15074.81,Dallas,2025-11-14,Eligible for loyalty bonus after 12 months.,advisor@finassist.example
+QTFHXZ1D,High-Yield Savings,60 Months,4.9,USD,32886.73,Seattle,2025-11-12,"Rate guaranteed for deposits above $10,000.",support@finedge.example
+QTPCTHVI,Money Market Account,3 Months,4.98,USD,14936.21,Seattle,2025-11-10,Eligible for loyalty bonus after 12 months.,info@kevcapital.example
+QTCNXQVW,Student Loan Refinance,6 Months,2.58,USD,520.62,New York,2025-11-20,Rates may vary based on credit profile and location.,advisor@finassist.example
+QTKYGTPH,Mortgage Rate Offer,36 Months,6.24,EUR,13743.97,New York,2025-12-11,Special promotional rate for new customers only.,advisor@finassist.example
+QT27MG5H,Certificate of Deposit,36 Months,5.44,USD,41023.88,Atlanta,2025-11-10,Special promotional rate for new customers only.,support@finedge.example
+QT9U94NY,Student Loan Refinance,48 Months,5.34,GBP,40534.3,Denver,2025-11-14,"Rate guaranteed for deposits above $10,000.",advisor@finassist.example
+QT5999DX,Student Loan Refinance,3 Months,7.89,CAD,46189.53,San Francisco,2025-12-18,Special promotional rate for new customers only.,advisor@finassist.example
+QT5X0EL1,Commercial Equipment Loan,12 Months,4.55,USD,6336.62,Chicago,2025-12-11,Eligible for loyalty bonus after 12 months.,rates@northbayfunds.example
+QTK7KFAJ,Mortgage Rate Offer,6 Months,7.34,USD,22156,Chicago,2025-11-01,"Rate guaranteed for deposits above $10,000.",advisor@finassist.example
+QTNYS7KU,Business Line of Credit,60 Months,2.51,USD,34240.05,Chicago,2026-01-08,Rates may vary based on credit profile and location.,support@finedge.example
+QTK8OWMF,Auto Loan Quote,12 Months,8.1,GBP,16298.39,Chicago,2025-11-13,Flexible payment schedule with early withdrawal penalty.,info@kevcapital.example
+QTOUU48F,Auto Loan Quote,24 Months,1.97,CAD,49988.18,Austin,2025-12-07,Special promotional rate for new customers only.,advisor@finassist.example
+QTCBQX8D,Business Line of Credit,6 Months,2.17,USD,11260.81,Miami,2025-12-07,Flexible payment schedule with early withdrawal penalty.,rates@northbayfunds.example
+QTM4DBI1,High-Yield Savings,24 Months,3.5,USD,36934.53,Miami,2025-11-05,Flexible payment schedule with early withdrawal penalty.,rates@northbayfunds.example
+QTENB40D,Mortgage Rate Offer,6 Months,2.73,GBP,11947.03,Atlanta,2025-11-27,Special promotional rate for new customers only.,info@kevcapital.example
+QTWCKMA0,Money Market Account,24 Months,6.64,USD,2265.42,Chicago,2025-11-24,Special promotional rate for new customers only.,support@finedge.example
+QTF7A5GM,High-Yield Savings,48 Months,7.66,USD,34475.28,Atlanta,2025-12-30,Rates may vary based on credit profile and location.,rates@northbayfunds.example
+QT43W4GR,High-Yield Savings,36 Months,5.9,USD,36151.89,Boston,2025-11-17,Flexible payment schedule with early withdrawal penalty.,rates@northbayfunds.example
+QT072TRW,Business Line of Credit,48 Months,8.81,GBP,47345.52,Atlanta,2025-11-06,Rates may vary based on credit profile and location.,support@finedge.example
+QT232180,Auto Loan Quote,36 Months,2.64,EUR,36628.55,Boston,2025-12-24,Special promotional rate for new customers only.,support@finedge.example
+QTQQYGD1,Money Market Account,36 Months,4.45,GBP,27027.92,San Francisco,2025-11-11,Special promotional rate for new customers only.,info@kevcapital.example
+QT45NTOT,Auto Loan Quote,12 Months,6.39,USD,42244.38,New York,2025-12-30,Special promotional rate for new customers only.,info@kevcapital.example
+QTVR5FCK,Certificate of Deposit,48 Months,4.18,GBP,17644.37,Denver,2026-01-05,Special promotional rate for new customers only.,rates@northbayfunds.example
+QT80FMVT,Mortgage Rate Offer,3 Months,3.14,CAD,17117.35,San Francisco,2025-12-23,Rates may vary based on credit profile and location.,advisor@finassist.example
+QTEK1S8B,Commercial Equipment Loan,24 Months,8.77,USD,6400.81,Atlanta,2025-11-13,"Rate guaranteed for deposits above $10,000.",rates@northbayfunds.example
+QTZ0BYGN,High-Yield Savings,24 Months,2.31,GBP,8564.27,Seattle,2025-11-17,Includes automatic renewal option upon maturity.,advisor@finassist.example
+QT4LVNKA,Student Loan Refinance,60 Months,2.14,GBP,49411.91,Dallas,2025-11-18,Flexible payment schedule with early withdrawal penalty.,rates@northbayfunds.example
+QT3ZPA4I,Certificate of Deposit,12 Months,3.75,EUR,8691.41,Chicago,2025-12-25,Flexible payment schedule with early withdrawal penalty.,support@finedge.example
+QTIXXW6H,Commercial Equipment Loan,24 Months,3.57,GBP,37096.56,Seattle,2025-12-25,Rates may vary based on credit profile and location.,info@kevcapital.example
+QT7GW79B,Student Loan Refinance,36 Months,3.59,USD,25547.81,Denver,2026-01-10,Flexible payment schedule with early withdrawal penalty.,support@finedge.example
+QTE72VLL,Commercial Equipment Loan,12 Months,2.9,CAD,28106.07,Chicago,2025-12-20,Flexible payment schedule with early withdrawal penalty.,rates@northbayfunds.example
+QTL178JC,Money Market Account,36 Months,8.56,EUR,37340.7,Dallas,2025-12-06,Eligible for loyalty bonus after 12 months.,rates@northbayfunds.example
+QT6NNJKO,Business Line of Credit,3 Months,7.74,USD,40201.71,Boston,2025-12-19,Rates may vary based on credit profile and location.,rates@northbayfunds.example
+QTEXTQVS,High-Yield Savings,60 Months,3.37,USD,12996.24,San Francisco,2026-01-10,Flexible payment schedule with early withdrawal penalty.,support@finedge.example
+QTI4G97W,Student Loan Refinance,60 Months,4.57,EUR,27536.23,New York,2026-01-11,"Rate guaranteed for deposits above $10,000.",rates@northbayfunds.example
+QTLV1G50,Mortgage Rate Offer,48 Months,2.2,USD,3020.18,Miami,2026-01-07,Rates may vary based on credit profile and location.,advisor@finassist.example
+QTV68O3V,Certificate of Deposit,24 Months,3.49,CAD,3142.06,Seattle,2025-11-11,"Rate guaranteed for deposits above $10,000.",support@finedge.example
+QT3IBETA,Fixed Income Bond Fund,24 Months,1.95,GBP,46389.45,Miami,2025-12-06,Flexible payment schedule with early withdrawal penalty.,advisor@finassist.example
+QTYLMJ08,Mortgage Rate Offer,48 Months,5.75,USD,8462.63,Denver,2026-01-12,"Rate guaranteed for deposits above $10,000.",advisor@finassist.example
+QTT5KX9X,Auto Loan Quote,3 Months,4.13,USD,9009.51,San Francisco,2025-12-17,Includes automatic renewal option upon maturity.,support@finedge.example
+QTKMZTHY,Auto Loan Quote,12 Months,4.97,EUR,14960.09,Dallas,2025-11-21,Includes automatic renewal option upon maturity.,rates@northbayfunds.example
+QT79322H,Money Market Account,24 Months,6.26,USD,31671.3,Austin,2025-12-13,Rates may vary based on credit profile and location.,rates@northbayfunds.example

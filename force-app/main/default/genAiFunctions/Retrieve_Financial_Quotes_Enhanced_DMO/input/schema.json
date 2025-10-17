@@ -1,0 +1,28 @@
+{
+  "required": ["productType", "stateAddress"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "maxDeposit": {
+      "title": "Maximum Deposit",
+      "description": "Optional maximum deposit amount to filter results.",
+      "lightning:type": "lightning__numberType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": true
+    },
+    "productType": {
+      "title": "Product Type",
+      "description": "Indicates which financial product category the quote belongs to (Checking, Savings, CD, Loan). The agent can use this value to filter or summarize results.",
+      "lightning:type": "lightning__textType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": true
+    },
+    "stateAddress": {
+      "title": "State Address",
+      "description": "Represents the state where the user is located or interested in. The U.S. state (e.g., Texas, California) or abbreviation (e.g., \"TX\", \"CA\") to filter quotes by branch location.",
+      "lightning:type": "lightning__numberType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": true
+    }
+  },
+  "lightning:type": "lightning__objectType"
+}

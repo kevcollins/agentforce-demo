@@ -3,4 +3,6 @@
 //     query text and running the command:
 //     SFDX: Execute SOQL Query with Currently Selected Text
 
-SELECT Id, Name FROM Account
+// SELECT Id, Name FROM Account
+SELECT Quote_Reference, Product_Type, Term FROM Financial_Rate_Quote__c WHERE Branch_City__c LIKE '%Boston%' LIMIT 5
+// SELECT Id, Name FROM Account --- IGNORE ---  

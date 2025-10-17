@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description
+  >Retrieves financial rate quotes from Data Cloud based on product type, state address, and optional maximum deposit.</description>
+    <developerName>Retrieve_Financial_Quotes_Enhanced_DMO</developerName>
+    <invocationTarget>QuoteRetrieverDmoInvocable</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <localDeveloperName
+  >Retrieve_Financial_Quotes_Enhanced_DMO</localDeveloperName>
+    <masterLabel>Retrieve Financial Quotes (Enhanced DMO)</masterLabel>
+    <progressIndicatorMessage
+  >Retrieving your quote(s) ...</progressIndicatorMessage>
+</GenAiFunction>

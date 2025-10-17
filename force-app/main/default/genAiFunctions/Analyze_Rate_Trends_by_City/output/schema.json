@@ -1,0 +1,24 @@
+{
+  "unevaluatedProperties": false,
+  "properties": {
+    "averageRate": {
+      "title": "Average Rate",
+      "description": "Numeric average of Interest_Rate__c for the requested city.",
+      "lightning:type": "lightning__numberType",
+      "lightning:isPII": false,
+      "copilotAction:isDisplayable": true,
+      "copilotAction:isUsedByPlanner": true,
+      "copilotAction:useHydratedPrompt": false
+    },
+    "insight": {
+      "title": "Insight",
+      "description": "Readable sentence summarizing the average rate for the requested city.",
+      "lightning:type": "lightning__textType",
+      "lightning:isPII": false,
+      "copilotAction:isDisplayable": true,
+      "copilotAction:isUsedByPlanner": true,
+      "copilotAction:useHydratedPrompt": false
+    }
+  },
+  "lightning:type": "lightning__objectType"
+}

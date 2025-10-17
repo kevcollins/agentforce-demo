@@ -1,0 +1,14 @@
+{
+  "required": ["city"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "city": {
+      "title": "City",
+      "description": "Branch city to use when aggregating interest rates (for example, \"Houston\").",
+      "lightning:type": "lightning__textType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": false
+    }
+  },
+  "lightning:type": "lightning__objectType"
+}
