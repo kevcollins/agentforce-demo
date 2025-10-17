@@ -21,6 +21,7 @@
     "@babel/plugin-proposal-decorators": "^7.28.0",
     "@prettier/plugin-xml": "^3.4.1",
     "@salesforce/sfdx-lwc-jest": "^7.0.2",
+    "globals": "^16.4.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "prettier": "^3.5.3",
